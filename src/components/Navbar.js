@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Logo from "../assets/images/logo.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Navbar = () => {
   const [show, setShow] = useState(false)
@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="nav">
         <div className="nav__container">
           <div className="nav__logo">
-            <img src={Logo} alt="University of Toronto logo" />
+            <StaticImage className="logo" src="../assets/images/logo.jpg" alt="University of Toronto logo" />
             <div>
               <h3 className="nav__header">PIANO PEDAGOGY</h3>
               <p className="nav__sub">University of Toronto</p>

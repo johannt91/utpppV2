@@ -32,7 +32,7 @@
   align-items: center;
 }
 
-.nav__logo > img {
+.nav__logo > .logo {
   width: 1.25rem;
   margin-right: 0.8rem;
 }

@@ -138,7 +138,7 @@
   }
 
 .masterPiano, .doctorPiano {
-  height: 20rem;
+  height: 15rem;
   max-width: 80vw;
   object-fit: contain;
 }

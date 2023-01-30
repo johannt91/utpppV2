@@ -1,8 +1,8 @@
 import React from 'react';
 import * as Main from '../assets/styles/home.module.css';
 import Layout from '../components/Layout';
-import Piano from '../assets/images/bwpiano.jpg';
-import Score from '../assets/images/scorehand.jpg';
+import { StaticImage } from 'gatsby-plugin-image';
+
 import { BsChevronDown } from 'react-icons/bs'
 
 export default function Home() {
@@ -47,8 +47,8 @@ export default function Home() {
         <section className={Main.degrees}>
           <h2>DEGREES</h2>
           <div className={Main.programs}>
-            <img className={Main.masterPiano} src={Piano}/>
-            <img className={Main.doctorPiano} src={Score}/>
+            <StaticImage className={Main.masterPiano} src="../assets/images/bwpiano.jpg" alt="Hands playing piano"/>
+            <StaticImage className={Main.doctorPiano} src="../assets/images/scorehand.jpg" alt="Hand touching music sheet"/>
           </div>
         </section>
         
