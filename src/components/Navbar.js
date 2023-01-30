@@ -1,11 +1,11 @@
-import React, { useState } from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Navbar = () => {
   const [show, setShow] = useState(false)
 
   return (
-    <>
       <nav className="nav">
         <div className="nav__container">
           <div className="nav__logo">
@@ -16,7 +16,7 @@ const Navbar = () => {
             </div>
           </div>
           <ul className="nav__items">
-            <li className="nav__item">Degrees</li>
+            <li className="nav__item"></li>
             <li className="nav__item">Media</li>
             <li className="nav__item">People</li>
           </ul>
@@ -49,12 +49,11 @@ const Navbar = () => {
             show ? "mobile--nav-items show-items" : "mobile--nav-items"
           }
         >
-          <li className="mobile--nav-item">Degrees</li>
-          <li className="mobile--nav-item">Media</li>
-          <li className="mobile--nav-item">People</li>
+          <li className="mobile--nav-item"><Link to="/">Home</Link></li>
+          <li className="mobile--nav-item"><Link to="/degrees">Degrees</Link></li>
+          <li className="mobile--nav-item"><Link to="/people">People</Link></li>
         </ul>
       </nav>
-    </>
   )
 }
 

@@ -5,6 +5,24 @@
   --ff-primary: "Work Sans", "Sans-serif";
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-weight: 300;
+}
+
+
 * {
   padding: 0;
   margin: 0;

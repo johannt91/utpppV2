@@ -1,13 +1,25 @@
+:root {
+  --btn-cta: #1A6BE0;
+  --btn-learn: #144CA0;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(
-    180deg,
-    rgba(19, 19, 19, 0.3),
-    rgba(20, 20, 20, 0.3)),
-  url(../images/hero-mobile.jpg);
+  background-image: url(../images/hero-mobile.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 70% 30%;
@@ -16,10 +28,13 @@
 }
 
 .headline {
-    position: absolute;
-    top: 18rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
     font-size: 1.2rem;
     padding: 0 1.5rem;
+    letter-spacing: 2px;
     animation: slidein 2s;
 }
 
@@ -30,12 +45,14 @@
   height: 3rem;
   width: 15rem;
   color: #ffffff;
-  background-color: #1A6BE0;
-  position: absolute;
-  top: 24rem;
+  background-color: var(--btn-cta);
+  position: relative;
+  top: 0rem;
+  left: 0;
+  right: 0;
   text-decoration: none;
   border-radius: 10px;
-  animation: fadeIn 4s;
+  animation: fadeIn 2.5s;
 }
 
 .button:hover {
@@ -59,39 +76,35 @@
 
 @keyframes slidein {
     from {
-        top: 5rem;
+        top: -3rem;
         opacity: 0;
     }
     to {
-        top: 18rem;
+        top: 0rem;
         opacity: 1;
     }
 }
 
 @-moz-keyframes slidein {
     from {
-        top: 5rem;
+        top: -3rem;
         opacity: 0;
     }
     to {
-        top: 18rem;
+        top: 0rem;
         opacity: 1;
     }
 }
 
 @-webkit-keyframes slidein {
     from {
-        top: 5rem;
+        top: -3rem;
         opacity: 0;
     }
     to {
-        top: 18rem;
+        top: 0rem;
         opacity: 1;
     }
-}
-
-.heading {
-    letter-spacing: 2px;
 }
 
 .offer {
@@ -136,11 +149,17 @@
       transform: translateY(-5px);
     }
   }
+  
+.degrees {
+  margin: 5rem 0;
+  padding: 0 1.5rem;
+}
 
 .masterPiano, .doctorPiano {
   height: 15rem;
   max-width: 80vw;
   object-fit: contain;
+  margin: 2rem 0;
 }
 
 .doctorPiano {
@@ -151,6 +170,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 3rem;
+}
+
+.program__subtitle {
+  line-height: 2;
+}
+
+.program__description {
+  margin-top: 1.2rem;
+}
+
+.program__link {
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  width: 9rem;
+  border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: var(--btn-learn);
 }
 
 .description {
@@ -168,13 +207,13 @@
     padding: 0 1.5rem;
 }
 
-.degrees {
-  text-align: center;
+.video {
+  background-color: black;
 }
 
-.video {
+.video__player {
     width: 100%;
-    height: 300px;
+    height: 18rem;
     position: relative;
     bottom: 0;
     left: 0;
