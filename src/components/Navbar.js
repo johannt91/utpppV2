@@ -49,9 +49,9 @@ const Navbar = () => {
             show ? "mobile--nav-items show-items" : "mobile--nav-items"
           }
         >
-          <li className="mobile--nav-item"><Link to="/">Home</Link></li>
-          <li className="mobile--nav-item"><Link to="/degrees">Degrees</Link></li>
-          <li className="mobile--nav-item"><Link to="/people">People</Link></li>
+          <li className="mobile--nav-item"><Link className="mobile--nav-link" to="/">Home</Link></li>
+          <li className="mobile--nav-item"><Link className="mobile--nav-link" to="/degrees">Degrees</Link></li>
+          <li className="mobile--nav-item"><Link className="mobile--nav-link" to="/people">People</Link></li>
         </ul>
       </nav>
   )

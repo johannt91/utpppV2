@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <main>
+      <main className={Main.homepage}>
         <section className={Main.hero}>
           <div className={Main.cta}>
             <h3 className={Main.headline}>

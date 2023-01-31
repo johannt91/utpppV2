@@ -32,10 +32,11 @@ p {
 
 .nav {
   position: fixed;
-  background: #fff;
+  background: #0d0d0de0;
   width: 100%;
   padding: 0 1rem;
   z-index: 10;
+  top: 0;
 }
 
 .nav__container {
@@ -84,6 +85,11 @@ p {
   font-size: 1.3rem;
 }
 
+.mobile--nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .nav__item {
   padding: 0 0.5rem;
 }
@@ -103,7 +109,8 @@ p {
 .button__toggle__bar {
   width: 2rem;
   height: 0.15rem;
-  background: #000;
+  /* background: #000; */
+  background: #fff;
   display: block;
   position: relative;
   margin: 0.2rem 0;
