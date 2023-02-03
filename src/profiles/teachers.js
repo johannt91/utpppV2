@@ -2,62 +2,46 @@ export const teachers = [
     {
         name: "Louise Hung",
         imgTitle: "louise",
-        bio: "",
-        altText:"Image of Louise Hung",
-        id: 0
-    },
-    {
-        name: "Jessica Lee",
-        imgTitle: "jessica",
-        altText:"Image of Jessica Lee",
-        id: 1
+        imgSrc: "./assets/images/people/louise"
     },
     {
         name: "Michael Lee",
         imgTitle: "michael",
-        altText:"Image of Michael Lee",
-        id: 2
+        imgSrc: "./assets/images/people/louise"
     },
     {
         name: "Ivan Yeung",
         imgTitle: "ivan",
-        altText:"Image of Ivan Yeung",
-        id: 3
+        imgSrc: "./assets/images/people/louise"
     },
     {
         name: "Johann Taylor",
         imgTitle: "johann",
-        altText:"Image of Johann Taylor",
-        id: 4
+        imgSrc: "./assets/images/people/louise"
     },
     {
         name: "David Sullivan",
         imgTitle: "david",
-        altText:"Image of David Sullivan",
-        id: 5
+        imgSrc: "./assets/images/people/louise"
     },
     {
         name: "Mimi Ke",
         imgTitle: "mimi",
-        altText:"Image of Mimi Ke",
-        id: 6
+        imgSrc: "./assets/images/people/louise"
     },
     {
         name: "Nicole Agostino",
         imgTitle: "nicole",
-        altText:"Image of Nicole Agostino",
-        id: 7
+        imgSrc: "./assets/images/people/louise"
     },
     {
         name: "Iris Hung",
         imgTitle: "iris",
-        altText:"Image of Iris Hung",
-        id: 8
+        imgSrc: "./assets/images/people/louise"
     },
     {
         name: "Kate Acone",
         imgTitle: "kate",
-        altText:"Image of Kate Acone",
-        id: 9
+        imgSrc: "./assets/images/people/louise"
     }
 ]

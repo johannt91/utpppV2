@@ -191,6 +191,14 @@ body {
   transform: rotateY(180deg);
 }
 
+.program {
+
+}
+
+.program__title {
+  
+}
+
 .programs {
   display: flex;
   flex-direction: column;
@@ -217,6 +225,10 @@ body {
   background-color: var(--btn-learn);
 }
 
+.program__link>span {
+  vertical-align: middle;
+}
+
 .description {
   padding-top: 1.5rem;
   line-height: 1.7;
@@ -231,10 +243,6 @@ body {
 .about__container {
   padding: 0 1.5rem;
 }
-
-/* .video {
-  background-color: black;
-} */
 
 .video__player {
   width: 100%;

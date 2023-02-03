@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <main className={Main.homepage}>
+      <main>
         <section className={Main.hero}>
           <div className={Main.cta}>
             <h3 className={Main.headline}>
@@ -71,7 +71,7 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Learn more &#8594;
+                Learn more <span>&#8594;</span>
               </a>
             </div>
             <div className={Main.program}>
@@ -96,13 +96,13 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Learn more &#8594;
+                Learn more <span>&#8594;</span>
               </a>
             </div>
           </div>
         </section>
 
-        <section className={Main.video}>
+        <section>
           <iframe
             className={Main.video__player}
             src={
