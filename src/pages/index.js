@@ -1,5 +1,5 @@
 import React from "react"
-import * as Main from "../assets/styles/home.module.css"
+import * as Main from "../assets/styles/Home.module.css"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 

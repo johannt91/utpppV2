@@ -6,52 +6,10 @@
 
 .faculty {
     position: relative;
-    top: 5rem;
+    top: 8.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    gap: 1rem;
     margin-bottom: 15rem;
-}
-
-/* .faculty__card {
-    background-color: red;
-    margin: 5rem 0;
-} */
-
-.faculty__image {
-    width: 375px;
-    height: 375px;
-}
-
-.faculty__profile {
-    display: flex;
-    justify-content: center;
-}
-
-.faculty__name {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(12, 12, 12, 0.7);
-    padding: 1rem 0 0.5rem;
-    width: 375px;
-}
-
-.faculty__name>h3, .faculty__bio {
-    text-align: center;
-}
-
-.faculty__bio {
-    margin-top: 0.6rem;
-    color: #4B93FF;
-    font-weight: bold;
-    font-size: 1.15rem;
-}
-
-.faculty__bio>span {
-    vertical-align: middle;
-}
-
-.faculty__bio:hover {
-    cursor: pointer;
 }
