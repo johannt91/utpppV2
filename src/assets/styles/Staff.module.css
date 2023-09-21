@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    top: 5rem;
+    padding-left: 1rem;
+}
+
+.imgContainer {
+    position: relative;
+    top: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 15rem;
+}

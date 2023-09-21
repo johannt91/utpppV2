@@ -1,10 +1,10 @@
 .modal {
     position: fixed;
-    background: rgba(43, 43, 43, 0.95);
+    background: rgba(43, 43, 43, 0.96);
     height: 92vh;
     width: 100vw;
     top: 4rem;
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem;
     left: 0;
     z-index: 9999;
 }
@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: -1rem;
 }
 
 .modalHeading {
@@ -20,8 +21,8 @@
     align-items: center;
 }
 
-.modalSub {
-
+.modalTitle {
+    margin-top: -1rem;
 }
 
 .modalImage {
@@ -43,15 +44,29 @@
     margin-top: -2.5rem;
 }
 
-.modalBio {
+.modalContent {
     margin: 1rem 0 0 0;
-    padding: 1.5rem 1rem;
+    padding: 1rem 0.75rem;
     height: 525px;
     overflow-y: scroll;
     background: rgba(69, 69, 69, 0.95);
 }
 
-.modalBio>p {
-    font-size: 1.2rem;
-
+.modalContent>p {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: justify;
 }
+
+
+/* Make scrollbar in modal visible */
+/* ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.981);
+  }
+   */

@@ -28,9 +28,9 @@ export default function Home() {
               Apply Now
             </a>
           </div>
-          <div onClick={scroll}>
+          <div>
             <p className={Main.offer}>See what we have to offer</p>
-            <BsChevronDown className={Main.chevron} />
+            <BsChevronDown className={Main.chevron} onClick={scroll} onKeyDown={scroll} />
           </div>
         </section>
 
@@ -49,13 +49,13 @@ export default function Home() {
         <section className={Main.degrees} id="degrees">
           <h2>DEGREES</h2>
           <div className={Main.programs}>
-            <div className={Main.program}>
+            <div>
               <StaticImage
                 className={Main.masterPiano}
                 src="../assets/images/bwpiano.jpg"
                 alt="Hands playing piano"
               />
-              <h3 className={Main.program__title}>MASTER OF MUSIC</h3>
+              <h3>MASTER OF MUSIC</h3>
               <h4 className={Main.program__subtitle}>
                 In Piano Performance &amp; Pedagogy
               </h4>
@@ -74,13 +74,13 @@ export default function Home() {
                 Learn more <span>&#8594;</span>
               </a>
             </div>
-            <div className={Main.program}>
+            <div>
               <StaticImage
                 className={Main.doctorPiano}
                 src="../assets/images/scorehand.jpg"
                 alt="Hand touching music sheet"
               />
-              <h3 className={Main.program__title}>Doctor of Musical Arts</h3>
+              <h3>Doctor of Musical Arts</h3>
               <h4 className={Main.program__subtitle}>
                 In Piano Performance &amp; Pedagogy
               </h4>

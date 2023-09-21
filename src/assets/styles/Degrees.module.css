@@ -1,0 +1,60 @@
+.container {
+    margin: 6rem 0;
+    padding: 0 1.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 5rem 0 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f1f1f1;
+    width: 275px;
+}
+
+.programTitle {
+    margin-top: 5rem;
+}
+
+.programDescription {
+    margin-top: 2rem;
+}
+
+.content, .experiences {
+    margin: 1rem 0;
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+.experienceList {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .experienceList>p {
+    margin-bottom: 2rem;
+} */
+
+
+.separator {
+    margin: 2rem 0;
+    height: 2rem;
+    width: 1px;
+    display: block;
+    background-color: #f1f1f1;;
+}
+
+
+
+.experiencesTitle {
+    font-size: 1.25rem;
+    margin-top: 4rem;
+    font-weight: bold;
+}
+
+.linkStyle {
+    text-decoration: none;
+    font-family: inherit;
+    color: #1a6be0;
+}

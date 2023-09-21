@@ -19,7 +19,7 @@ const teacherImgs = graphql`
       nodes {
         name
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, width: 400)
+          gatsbyImageData(layout: CONSTRAINED, width: 400, height: 400)
         }
       }
     }
