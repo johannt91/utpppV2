@@ -89,6 +89,36 @@ Certificate in Performance at the University of Toronto with Dr. Megan Chang. In
 academic studies, Carina enjoys performing in retirement homes, teaching, and playing chamber music.
 `
 
+const steven = `
+Steven Zhai is a classically trained pianist from the city of Markham Ontario.
+Although he has a strong wind instrument background, he is first and foremost a pianist.
+Steven formally studied under the tutelage of his mother, a former music professor, and
+performing pianist from Shanghai. He won the 2019 Royal Conservatory of Music Gold
+Medal for level 9 piano which propelled his musical journey forward.
+A recipient of the Jean A. Chalmers, Anna Margaret Wallace & William Alexander
+McCoy, and recently the Swee Kim Ang Memorial scholarships, Steven proved his
+dedication to the performing arts and used these awards to help further his studies.
+Currently, Steven is in his final year pursuing a bachelor's degree in music education at
+the University of Toronto. His music education background allowed him to develop a
+solid pedagogical foundation and gain practical experience. He joined the University of
+Toronto Piano Pedagogy Program at the invitation of Artistic Director Charles Lin where
+he will be an assistant teacher to Iris Huang.
+Steven's teaching philosophy emphasizes empathy for the students as well as
+understanding their needs. He is very patient, down-to-earth, and kind. He believes that
+every child is capable of making music and deserves to experience a positive music
+education. Steven also believes that a student should be able to comfortably give their
+own thoughts and opinions as well as have deep conversations about the music at
+hand.
+Steven is currently studying in the piano studio of Dr. Megan Chang where he
+recently finished his third year of study with numerous substantial performances which
+culminated in a self-organized joint-recital with a colleague. Steven hopes to continue
+this performance streak in the coming months as he prepares for his master's audition.
+In addition to this, Steven is currently conducting an independent study project under
+the supervision of Professor Norbert Paljei who is the head of the composition program
+and the divisional coordinator for theory and composition. This project aims to explore a
+new genre of music called Anime piano music.
+`
+
 export const biographies = {
   david: david,
   louise: louise,
@@ -96,4 +126,5 @@ export const biographies = {
   nicole: nicole,
   michael: michael,
   carina: carina,
+  steven: steven,
 }

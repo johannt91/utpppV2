@@ -7,6 +7,7 @@ import {
   imageBtn,
   rightArrow,
   imageStrip,
+  imageContainer
 } from "../assets/styles/Gallery.module.css"
 
 import Modal from "./Modal"
@@ -37,12 +38,13 @@ const Gallery = () => {
 
   return nodes.map((image, index) => {
     const { name } = image
+    const role = "teacher"
 
     return (
-      <div key={index}>
+      <div className={imageContainer} key={index}>
         <GatsbyImage alt="" image={image.childImageSharp.gatsbyImageData} />
         <div className={imageLabel}>
-          <h3 className={imageName}>{getFullName(name)}</h3>
+          <h3 className={imageName}>{getFullName(name, role)}</h3>
           <div className={imageStrip}>
             <button className={imageBtn} onClick={() => toggleModal(name)}>
               bio

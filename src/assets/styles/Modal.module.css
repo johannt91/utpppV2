@@ -7,6 +7,7 @@
     padding: 2rem 1.5rem;
     left: 0;
     z-index: 9999;
+    overflow: hidden;
 }
 
 .modalHeader {
@@ -47,9 +48,10 @@
 .modalContent {
     margin: 1rem 0 0 0;
     padding: 1rem 0.75rem;
-    height: 525px;
-    overflow-y: scroll;
     background: rgba(69, 69, 69, 0.95);
+    height: 525px;
+    z-index: 10000;
+    overflow-y: auto;
 }
 
 .modalContent>p {
@@ -58,15 +60,6 @@
     text-align: justify;
 }
 
-
-/* Make scrollbar in modal visible */
-/* ::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 7px;
-  }
-  
-::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 1px rgba(255, 255, 255, 0.981);
-  }
-   */
+.noScroll {
+    overflow: hidden;
+}

@@ -1,19 +1,22 @@
-import { staff } from "../profiles/staffList";
+import { staff } from "../profiles/staffList"
 
-export const getFullName = (name) => {
-    for (const member of staff) {
-       if (member.imgTitle === name ) {
-        return member.fullName
-       }
+export const getFullName = (name, role) => {
+  for (const member of staff) {
+    if (
+      (member.imgTitle === name && member.role === role) ||
+      member.imgTitle === name
+    ) {
+      return member.fullName
     }
-    return null
+  }
+  return null
 }
 
-export const getDegree = (name) => {
-    for (const member of staff) {
-        if (member.imgTitle === name) {
-            return member.degree
-        }
+export const getDegree = name => {
+  for (const member of staff) {
+    if (member.imgTitle === name) {
+      return member.degree
     }
-    return null
+  }
+  return null
 }

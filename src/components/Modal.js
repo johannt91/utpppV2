@@ -14,7 +14,6 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import { getBio } from "../utils/getBio"
 
 const Modal = ({ onClose, name, image }) => {
-  console.log(onClose)
 
   return (
     <aside className={modal}>
