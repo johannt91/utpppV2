@@ -13,3 +13,12 @@
     gap: 1rem;
     margin-bottom: 15rem;
 }
+
+@media (min-width: 45rem) {
+    .imgContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

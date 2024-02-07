@@ -10,7 +10,7 @@ import {
   rightArrow,
   imageStrip,
   imageContainer
-} from "../assets/styles/Gallery.module.css"
+} from "../assets/styles/Gallery.module.css" // CHANGE THIS DUE TO CONFLICT
 
 import Modal from "./Modal"
 import { BsArrowRight } from "react-icons/bs"

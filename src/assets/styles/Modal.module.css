@@ -63,3 +63,22 @@
 .noScroll {
     overflow: hidden;
 }
+
+@media (min-width: 45rem) {
+    .modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modalContent, .modalHeader {
+        width: 72vw;
+    }
+
+    .modalContent>p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        text-align: justify;
+        padding: 0 1.2rem;
+    }
+}

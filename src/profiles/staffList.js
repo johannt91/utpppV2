@@ -44,7 +44,7 @@ export const staff = [
     {
         fullName: "Mimi Ke",
         imgTitle: "mimi",
-        degree: "MMus, BEd, ACP ",
+        degree: "MMus, BEd, ACP",
         role: "teacher"
     },
     {

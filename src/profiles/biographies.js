@@ -119,12 +119,76 @@ and the divisional coordinator for theory and composition. This project aims to 
 new genre of music called Anime piano music.
 `
 
+const mimi = `
+Mimi is a Toronto-based pianist, collaborator, and music educator. She enjoys working with students of all ages and believes in the joy of music making. Inspired by the pedagogical approaches of Orff, Kodály, Dalcroze, and Edwin Gordon, singing, movement, and play are always integrated into her lessons. Her teaching philosophy revolves around building a solid technical foundation from a young age, and at the same time fostering one's musicality through creativity, imagination, and emotional connection.
+
+In addition to her teaching, Mimi is also an active soloist and has performed in Italy, the USA, China, and Canada. As a participant in international summer music festivals including the RomeSMARTS program, Adamant Music School, and l’Académie orford musique, she has performed in masterclasses by John Perry, David Jalbert, and Orazio Maione, among others.
+
+Mimi holds a Master of Music in Piano Pedagogy and Performance from the University of Toronto, under the tutelage of Dr. Midori Koga. Her principal teachers also include the late Prof. Boyanna Toyich, Dr. Adam Zukewicz, and concert pianist Li Wang. In addition, she holds an ARCT in Piano Performance from the RCM and a Bachelor of Education from OISE as part of the Concurrent Teacher Education Program, where she received a full-tuition scholarship and was named a University of Toronto Scholar.
+
+"Teach children the beauty of music and music will show them the beauty of life."
+- Maestro José Abreu
+`
+
+const midori = `
+With performances described as “passionate” (Ann Arbor News), “meltingly lovely”, “rippling clean” (Globe and Mail), 
+and “with exquisite tone colors” (Fanfare Magazine), pianist Midori Koga has been featured as a soloist and chamber musician throughout 
+Canada and the USA, as well as in Spain, Taiwan, China, and Austria. Chamber music collaborations have included those with the acclaimed 
+percussion ensemble NEXUS, Soundstreams Ensemble, and with members of the Toronto Symphony Orchestra (TSO) in their New Creations Festival. 
+Internationally released recordings can be heard on the Albany, Equilibrium, Fleur de Son, NAXOS, Blue Griffin and Centrediscs labels.
+
+Also active as a lecturer, adjudicator and piano pedagogy specialist, Dr. Koga has served in the College of Examiners for the Royal 
+Conservatory of Music, as national adjudicator for the Canadian Music Competitions, and has presented pedagogical workshops worldwide. 
+Highlight presentations include those for the International Society for Music Education Conference; Music Teachers' National Association 
+Conferences; World Piano Pedagogy Conference; European Piano Teachers' Association Conference and the National Conference on Keyboard 
+Pedagogy in Chicago.
+
+Midori Koga currently serves as Associate Professor at the University of Toronto where she teaches piano and directs the first Canadian MM 
+and DMA programs in the area of Piano Pedagogy and Performance. She holds a Doctor of Musical Arts degree from the University of Michigan. 
+She is the founder of the University of Toronto Piano Pedagogy Program (UTPPP), and is grateful to Director Charles Lin, and Teacher 
+Training Coordinator Pei-chen Chen, as well as the extraordinary group of young teachers for providing such excellent music 
+learning experiences for children in the community.
+`
+
+const charles = `
+Pianist Charles Lin holds both Bachelor and Master of Music in Piano Performance/Pedagogy from the University of Toronto, under the guidance 
+of Marietta Orlov and Midori Koga. He is the recipient of the Alberta Foundation for the Arts Grant, the University of Toronto Fellowship, 
+and the Winspear Fund for Advanced Classical Music Studies. Performances highlight include appearances at the 14th World Piano Pedagogy 
+Conference in Phoenix, Arizona, the Toronto Summer Music Festival, the Canadian Chopin Festival, the Academy at Centre d'arts Orford, as 
+well as soloist with the Edmonton Symphony Orchestra and Concordia University College Orchestra. Charles has been a part of the Children's 
+Piano Pedagogy Program since 2008 and continues to serve as a private and group class teacher. Influential teacher teachers and mentors 
+include Alexandra Munn and Janet Scott-Hoyt, both of whom he studied with in Edmonton before moving to Toronto.
+`
+
+const peichen = `
+Pei-Chen Chen has received numerous awards across North America and Asia as a solo pianist, chamber musician, piano educator, and researcher.
+
+
+As an active performer, Pei-Chen has performed worldwide, delivering recitals and engaging in chamber music concerts. Notably, she has won awards at international ensemble competitions alongside Y. Lee. Pei-Chen is also deeply committed to promoting Canadian piano music amongst younger generations. Her recent recordings include "Northern Lights Piano Duets: An Exploration of Canadian Piano Music" with M. Xiong at the Orford Musician in Residency, and performances of works by Canadian composer Cecilia Livingston at the Banff Musician in Residency.
+
+
+In her role as a piano educator, Pei-Chen serves as a sessional lecturer and Lead Teacher Trainer in the Piano Pedagogy Program at the University of Toronto (U of T), playing a crucial role in training new teachers. 
+
+
+Since 2016, Pei-Chen has immersed herself in Dalcroze Eurhythmics, actively incorporating this unique approach into her teaching and research. She received the Mitacs Globalink Research Award and SSHRC from the Government of Canada. She also received the Selma Odom Prize for Best Student Paper at the 5th International Conference of Dalcroze Studies. An active lecturer, she has presented workshops and papers at international conferences, including Dalcroze Congrès, Music Teachers National Association Conference, NCKP: The Piano Conference, and the Piracicaba International Piano Festival. Pei-Chen's articles have also been published in Dalcroze Canada's journal "Being Music" and the Frances Clark Center Piano  Inspires Discovery. 
+
+
+Beyond academia, Pei-Chen actively participates in various music organizations, as part of her commitment to community outreach and volunteer work. As a certified piano teacher with the Ontario Registered Music Teachers' Association and RCM, she also serves as an adjudicator for RCM examinations. Notably, she serves as the editor of Dalcroze Canada's journal "Being Music." 
+
+
+Dr. Chen earned her Doctor of Musical Arts (DMA) in Piano Performance and Pedagogy from U of T under the tutelage of Dr. Midori Koga and Dr. James Parker. She also holds the Advanced Certificate in Early Childhood Music Education through RCM. (http://www.peichenpiano.com/)
+`
+
 export const biographies = {
   david: david,
   louise: louise,
   iris: iris,
   nicole: nicole,
   michael: michael,
+  mimi: mimi,
   carina: carina,
   steven: steven,
+  midori: midori,
+  charles: charles,
+  peichen: peichen,
 }

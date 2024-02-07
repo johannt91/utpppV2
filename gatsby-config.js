@@ -5,6 +5,7 @@
  */
 
  module.exports = {
+  pathPrefix: "/utppp",
   siteMetadata: {
     title: "University of Toronto Piano Pedagogy Program",
     description: "Piano Pedagogy at the University of Toronto's Music Faculty"

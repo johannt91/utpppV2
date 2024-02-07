@@ -32,10 +32,6 @@
     align-items: center;
 }
 
-/* .experienceList>p {
-    margin-bottom: 2rem;
-} */
-
 
 .separator {
     margin: 2rem 0;
@@ -44,8 +40,6 @@
     display: block;
     background-color: #f1f1f1;;
 }
-
-
 
 .experiencesTitle {
     font-size: 1.25rem;
@@ -57,4 +51,35 @@
     text-decoration: none;
     font-family: inherit;
     color: #1a6be0;
+}
+
+
+@media (min-width: 45rem) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 3rem;
+    }
+
+    .title {
+        width: 25rem;
+        margin-bottom: 0rem;
+        text-align: center;
+    }
+
+    .programTitle {
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    .experiencesTitle {
+        text-align: center;
+    }
+
+    .experiences {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

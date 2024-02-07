@@ -16,9 +16,11 @@ const Navbar = () => {
             </div>
           </div>
           <ul className="nav__items">
-            <li className="nav__item">Home</li>
-            <li className="nav__item">Media</li>
-            <li className="nav__item">People</li>
+            <li className="nav__item"><Link className="nav-link" to="/">Home</Link></li>
+            <li className="nav__item"><Link className="nav-link" to="/degrees">Degrees</Link></li>
+            <li className="nav__item"><Link className="nav-link" to="/practicum">Practicum</Link></li>
+            <li className="nav__item"><Link className="nav-link" to="/faculty">Faculty</Link></li>
+            <li className="nav__item"><Link className="nav-link" to="/teachers">Teachers</Link></li>
           </ul>
           <button className="button__toggle" onClick={() => setShow(!show)}>
             <span
@@ -49,10 +51,11 @@ const Navbar = () => {
             show ? "mobile--nav-items show-items" : "mobile--nav-items"
           }
         >
-          <li className="mobile--nav-item"><Link className="mobile--nav-link" to="/">Home</Link></li>
-          <li className="mobile--nav-item"><Link className="mobile--nav-link" to="/degrees">Degrees</Link></li>
-          <li className="mobile--nav-item"><Link className="mobile--nav-link" to="/faculty">Faculty</Link></li>
-          <li className="mobile--nav-item"><Link className="mobile--nav-link" to="/teachers">Teachers</Link></li>
+          <li className="mobile--nav-item"><Link className="nav-link" to="/">Home</Link></li>
+          <li className="mobile--nav-item"><Link className="nav-link" to="/degrees">Degrees</Link></li>
+          <li className="mobile--nav-item"><Link className="nav-link" to="/practicum">Practicum</Link></li>
+          <li className="mobile--nav-item"><Link className="nav-link" to="/faculty">Faculty</Link></li>
+          <li className="mobile--nav-item"><Link className="nav-link" to="/teachers">Teachers</Link></li>
         </ul>
       </nav>
   )

@@ -22,9 +22,10 @@ body {
 .hero {
   height: 100vh;
   background-image: linear-gradient(
-    180deg,
-    rgba(41, 41, 41, 0.695) 75%,
-    rgba(41, 41, 41, 0.695) 25%),
+      180deg,
+      rgba(41, 41, 41, 0.695) 75%,
+      rgba(41, 41, 41, 0.695) 25%
+    ),
     url(../images/studio-hero.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -182,8 +183,6 @@ body {
 .masterPiano,
 .doctorPiano {
   height: 15rem;
-  max-width: 80vw;
-  object-fit: contain;
   margin: 2rem 0;
 }
 
@@ -218,7 +217,7 @@ body {
   background-color: var(--btn-learn);
 }
 
-.program__link>span {
+.program__link > span {
   vertical-align: middle;
 }
 
@@ -243,4 +242,37 @@ body {
   position: relative;
   bottom: 0;
   left: 0;
+}
+
+@media (min-width: 45rem) {
+  .headline {
+    font-size: 2.8rem;
+  }
+
+  .video__player {
+    height: 100vh;
+  }
+
+  .masterPiano,
+  .doctorPiano {
+    height: 25rem;
+    max-width: 70vw;
+  }
+
+  .degrees {
+    text-align: center;
+  }
+
+  .programs>div {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5rem;
+    gap: 1rem;
+  }
+
+  .program__description {
+    max-width: 50vw;
+  }
 }
